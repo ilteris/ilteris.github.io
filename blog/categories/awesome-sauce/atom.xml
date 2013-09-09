@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: awesome-sauce | My Octopress Blog]]></title>
+  <link href="http://ilteris.github.io/blog/categories/awesome-sauce/atom.xml" rel="self"/>
+  <link href="http://ilteris.github.io/"/>
+  <updated>2013-09-09T19:50:26-04:00</updated>
+  <id>http://ilteris.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[This is post]]></title>
+    <link href="http://ilteris.github.io/blog/2011/06/01/this-is-a-test/"/>
+    <updated>2011-06-01T14:44:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2011/06/01/this-is-a-test</id>
+    <content type="html"><![CDATA[<p>Booyah!</p>
+]]></content>
+  </entry>
+  
+</feed>
