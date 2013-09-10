@@ -1,1 +1,1 @@
-Blog for keeping code snippets for archive purposes. Powered by octopress.  
+Blog for keeping code snippets for archive purposes. Powered by octopress.
