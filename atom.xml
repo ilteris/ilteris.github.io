@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-09-09T20:36:54-04:00</updated>
+  <updated>2013-09-09T20:41:14-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -21,7 +21,7 @@
     <updated>2013-09-09T18:13:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/09/hello-world</id>
     
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This is the hello world post. Testing editing too.</p>
 ]]></content>
     
   </entry>
@@ -51,13 +51,13 @@ comments: true</p>
   
   <entry>
     
-    <title type="html"><![CDATA[This is post]]></title>
-    <link href="http://ilteris.github.io/blog/2011/06/01/this-is-a-test/"/>
+    <title type="html"><![CDATA[This Is A Test]]></title>
+    <link href="http://ilteris.github.io/blog/2012/02/19/this-is-a-test/"/>
     
-    <updated>2011-06-01T14:44:00-04:00</updated>
-    <id>http://ilteris.github.io/blog/2011/06/01/this-is-a-test</id>
+    <updated>2012-02-19T00:00:00-05:00</updated>
+    <id>http://ilteris.github.io/blog/2012/02/19/this-is-a-test</id>
     
-    <content type="html"><![CDATA[<p>Booyah!</p>
+    <content type="html"><![CDATA[
 ]]></content>
     
   </entry>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: untitled | Dev Diary]]></title>
+  <link href="http://ilteris.github.io/blog/categories/untitled/atom.xml" rel="self"/>
+  <link href="http://ilteris.github.io/"/>
+  <updated>2013-09-09T20:41:14-04:00</updated>
+  <id>http://ilteris.github.io/</id>
+  <author>
+    <name><![CDATA[ilteris kaplan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/09/hello-world/"/>
+    <updated>2013-09-09T18:13:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/09/hello-world</id>
+    <content type="html"><![CDATA[<p>This is the hello world post. Testing editing too.</p>
+]]></content>
+  </entry>
+  
+</feed>
