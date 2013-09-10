@@ -9,7 +9,7 @@
   <meta name="author" content="ilteris kaplan">
 
   
-  <meta name="description" content="I cannot believe I spent 3 hours on octopress installation. I deleted the repository 5 times and try to re-install only to find out that all problems &hellip;">
+  <meta name="description" content="Octopress Zsh Madness I cannot believe I spent 3 hours on octopress installation. I deleted the repository 5 times and try to re-install only to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,17 +20,15 @@
   
   <link rel="canonical" href="http://ilteris.github.io">
   <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dev Diary" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <script src="/javascripts/jquery.sidr.min.js"></script>
+  <script src="/javascripts/ah-blue.js"></script>
+  
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -45,143 +43,55 @@
   </script>
 
 
-</head>
+</head> 
 
-<body   class="collapse-sidebar sidebar-footer" >
-  <header role="banner">
-	<div class="header-title"><a href="/">Dev Diary</a></div>
+<body   >
+  <div class="aux-container">
+    <a id="nav-toggle" href="#sidr"></a>
+    <a id="search-toggle"></a>
+</div>
 
-
-	<br><div class="header-subtitle">Repository for keeping development related things in place.</div>
-
+<header class="header-container clearfix">
+        <a href="/"><img src="/images/ah-frame.svg" onerror="this.onerror=null; this.src='ah-frame.png'"></a>
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
+
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+    	
+    	<aside>
+			
+			  	<div class="search-container">
+					<form action="http://google.com/search" method="get">
+						<fieldset role="search">
+							<input type="hidden" name="q" value="site:blog.alexharr.is" />
+							<input class="search-field" type="text" name="q" results="0" placeholder=""/>
+							<input class="submit" type="submit" value=""/>
+						</fieldset>
+					</form>
+				</div>
+			
+		  <div id="main-nav">
+    <nav>
+        <ul>
+        	<li>
+        		
+					<h3>Recent Posts</h3>
+<ul>
+	
+    <li>
+    	<a href="/blog/2013/09/09/octopress-zsh-madness/">Octopress Zsh Madness</a>
+    </li>
+    
+    <li>
+    	<a href="/blog/2013/09/09/hello-world/">Hello World</a>
+    </li>
+    
 </ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:ilteris.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-  
-    
-      <h1 class="entry-title"><a href="/blog/2013/09/09/octopress-zsh-madness/">Octopress Zsh Madness</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-09T18:27:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I cannot believe I spent 3 hours on octopress installation. I deleted the repository 5 times and try to re-install only to find out that all problems were related to zsh. Basically don&rsquo;t bother installing octopress on zsh. Just change the shell to bash and go ahead. It won&rsquo;t take more than 5 minutes.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-  
-    
-      <h1 class="entry-title"><a href="/blog/2013/09/09/hello-world/">Hello World</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-09T18:13:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is the hello world post. Testing editing too.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/09/09/octopress-zsh-madness/">octopress zsh madness</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/09/09/hello-world/">Hello World</a>
-      </li>
-    
-  </ul>
-</section>
 
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/ilteris">@ilteris</a> on GitHub
@@ -218,19 +128,121 @@
 
 
 
+				
+        	</li>
+        	<li>
+        		<ul>
+                    <li>Projects - <a href="http://www.alexharr.is" target="_blank">alexharr.is</a>
+        			<li>Github - <a href="http://www.github.com/alexharris" target="_blank">github.com/alexharris</a></li>
+                    <li>Twitter - <a href="http://www.twitter.com/alexharris6" target="_blank">@alexharris6</a></li>
+                    <li>Email - <a href="mailto:alexharris6@gmail.com" target="_blank">alexharris6 at gmail</a></li>
+        		</ul>
+        	</li>
+        </ul>
+    </nav>
+</div>
+		</aside>
+		
+      
+
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
   
-</aside>
+    <h1><a href="/blog/2013/09/09/octopress-zsh-madness/">
+      Octopress Zsh Madness
+    </a></h1>
+  
+</header>
+<section>
+  <p>I cannot believe I spent 3 hours on octopress installation. I deleted the repository 5 times and try to re-install only to find out that all problems were related to zsh. Basically don&rsquo;t bother installing octopress on zsh. Just change the shell to bash and go ahead. It won&rsquo;t take more than 5 minutes.</p>
+
+</section>
+<footer>
+  <div class="article-date">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-09T18:27:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+  </div>
+</footer>
+
+</article>
+
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/untitled/'>untitled</a>
+  
+</span>
+
+
+  </div>
+  
+    <h1><a href="/blog/2013/09/09/hello-world/">
+      Hello World
+    </a></h1>
+  
+</header>
+<section>
+  <p>This is the hello world post. Testing editing too.</p>
+
+</section>
+<footer>
+  <div class="article-date">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-09T18:13:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+  </div>
+</footer>
+
+</article>
+
+<div class="pagination">
+
+
+
+</div>
+
 
     </div>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 -  ilteris kaplan <br/>
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> + <a href="https://github.com/ioveracker/mnml">mnml</a>.
-	  
-  </span>
-</p>
-
+  <footer class="main-footer">
+	<section class="interior-footer">
+		<span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+	</section>
 </footer>
+
+
   
 
 
