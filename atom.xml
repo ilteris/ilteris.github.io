@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-09-09T20:41:14-04:00</updated>
+  <updated>2013-09-09T20:45:30-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -45,19 +45,6 @@ date: 2013-09-09 18:27
 comments: true</p>
 
 <h2>categories: </h2>
-]]></content>
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[This Is A Test]]></title>
-    <link href="http://ilteris.github.io/blog/2012/02/19/this-is-a-test/"/>
-    
-    <updated>2012-02-19T00:00:00-05:00</updated>
-    <id>http://ilteris.github.io/blog/2012/02/19/this-is-a-test</id>
-    
-    <content type="html"><![CDATA[
 ]]></content>
     
   </entry>
