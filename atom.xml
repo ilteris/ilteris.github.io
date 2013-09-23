@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-09-20T22:47:00-04:00</updated>
+  <updated>2013-09-23T17:09:33-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[app annie analytics]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/23/app-annie-analytics/"/>
+    <updated>2013-09-23T17:06:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/23/app-annie-analytics</id>
+    <content type="html"><![CDATA[<p>This is a handy website that allows one to check out different app stores top
+games list. It definitely gives an insight about what people buy across the
+globe.</p>
+
+<p>Here&rsquo;s one for Turkey:
+<a href="http://www.appannie.com/top/iphone/turkey/">http://www.appannie.com/top/iphone/turkey/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[scrapbook]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/scrapbook/"/>
+    <updated>2013-09-15T13:12:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/scrapbook</id>
+    <content type="html"><![CDATA[<p>Another app idea of mine is codename scrapbook. Often times, I find myself browsing through all kinds of webpages, PDFs, videos when I am trying to learn a new language, framework or technology. Things get out of hand pretty quickly. It becomes hard to follow and remember where I leave things off, when I want to pick up later. Browser often becomes a mess with 120 tabs open.</p>
+
+<p>In order to solve this problem it will be good to have a service where it&rsquo;s easy to dump links, text, video, in order to pick those up later.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Chartist App]]></title>
