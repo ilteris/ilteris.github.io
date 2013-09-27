@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-09-23T17:09:33-04:00</updated>
+  <updated>2013-09-27T16:10:18-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[tabs outliner]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/27/tabs-outliner/"/>
+    <updated>2013-09-27T16:08:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/27/tabs-outliner</id>
+    <content type="html"><![CDATA[<p>I have found a great Chrome extension, tab outliner
+<a href="https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en,">https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en,</a>
+it allows one to keep tabs to minimum by allowing to save them in an tree
+interface. For a peace of mind, it&rsquo;s essential.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[app annie analytics]]></title>
@@ -24,17 +36,6 @@ globe.</p>
 
 <p>Here&rsquo;s one for Turkey:
 <a href="http://www.appannie.com/top/iphone/turkey/">http://www.appannie.com/top/iphone/turkey/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[scrapbook]]></title>
-    <link href="http://ilteris.github.io/blog/2013/09/15/scrapbook/"/>
-    <updated>2013-09-15T13:12:00-04:00</updated>
-    <id>http://ilteris.github.io/blog/2013/09/15/scrapbook</id>
-    <content type="html"><![CDATA[<p>Another app idea of mine is codename scrapbook. Often times, I find myself browsing through all kinds of webpages, PDFs, videos when I am trying to learn a new language, framework or technology. Things get out of hand pretty quickly. It becomes hard to follow and remember where I leave things off, when I want to pick up later. Browser often becomes a mess with 120 tabs open.</p>
-
-<p>In order to solve this problem it will be good to have a service where it&rsquo;s easy to dump links, text, video, in order to pick those up later.</p>
 ]]></content>
   </entry>
   
