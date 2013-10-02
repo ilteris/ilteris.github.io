@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-09-27T19:24:28-04:00</updated>
+  <updated>2013-10-02T10:13:18-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Dependency Management]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/02/javascript-dependency-management/"/>
+    <updated>2013-10-02T09:50:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/02/javascript-dependency-management</id>
+    <content type="html"><![CDATA[<p>Unlike many other languages javascript doesn&rsquo;t have a standard way to import
+modules. This made people to come up with different solutions like CommonJS, AMD
+or using plain old global nanespace. It took me a while to understand what&rsquo;s
+going on with the whole dependency management eco-system and what they mean and
+how they work.</p>
+
+<p>Here are a few webpages to grasp it better:
+<a href="http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead">http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead</a></p>
+
+<p><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html">http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html</a></p>
+
+<p>Generally there are two camps, RequireJS and CommonJS. CommonJS is similar to
+how npm but AMD people (RequireJS) think it&rsquo;s a javascript hack and it doesn&rsquo;t
+conform to the standards. From the other side, the critization is, RequireJS
+adds a lot of headache when project gets bigger.</p>
+
+<p>It looks like with ECMAScript 6, Javascript folks are going to try to come up
+with a cleaner and more important standard way of handling all these tasks.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[copy paste on tmux on mac os x]]></title>
