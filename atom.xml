@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-02T10:13:18-04:00</updated>
+  <updated>2013-10-02T10:14:17-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -20,7 +20,7 @@
     <id>http://ilteris.github.io/blog/2013/10/02/javascript-dependency-management</id>
     <content type="html"><![CDATA[<p>Unlike many other languages javascript doesn&rsquo;t have a standard way to import
 modules. This made people to come up with different solutions like CommonJS, AMD
-or using plain old global nanespace. It took me a while to understand what&rsquo;s
+or using plain old global namespace. It took me a while to understand what&rsquo;s
 going on with the whole dependency management eco-system and what they mean and
 how they work.</p>
 
