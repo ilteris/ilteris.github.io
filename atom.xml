@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-02T10:14:17-04:00</updated>
+  <updated>2013-10-02T10:32:49-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -28,6 +28,8 @@ how they work.</p>
 <a href="http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead">http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead</a></p>
 
 <p><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html">http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html</a></p>
+
+<p><a href="http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html">http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html</a></p>
 
 <p>Generally there are two camps, RequireJS and CommonJS. CommonJS is similar to
 how npm but AMD people (RequireJS) think it&rsquo;s a javascript hack and it doesn&rsquo;t
