@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Chartist App"
+date: 2013-09-15 11:15
+comments: true
+published: true
+categories: [projects, chartist, planning, ideas]
+---
+This is a project I have been thinking about for a while. I envisioned it as a service for my own needs when I want to be able save charts along with typical information like entry, exit points to look at them later.
+
+
+For a very simple start, I need a few things to make this work:
+1. Figure out a way to route the screen shot of the chart from desktop using mac os x screenshot application to the chartist application.
+2. Get a few inputs from the user including the derivative symbol, entry price, exit price.
+3. Try to grab the feed from the yahoo finance API.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Markdown"
+date: 2013-09-15 11:00
+comments: true
+categories: [language]
+---
+This is a simple interactive tutorial that gives the basics on markdown. (http://www.markdowntutorial.com/) Octopress is based on markdown by default, so it's useful to learn it before going forward.
