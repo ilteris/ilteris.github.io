@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ideas | Dev Diary]]></title>
   <link href="http://ilteris.github.io/blog/categories/ideas/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-07T13:15:13-04:00</updated>
+  <updated>2013-10-08T21:41:24-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[scrapbook]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/scrapbook/"/>
+    <updated>2013-09-15T13:12:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/scrapbook</id>
+    <content type="html"><![CDATA[<p>Another app idea of mine is codename scrapbook. Often times, I find myself browsing through all kinds of webpages, PDFs, videos when I am trying to learn a new language, framework or technology. Things get out of hand pretty quickly. It becomes hard to follow and remember where I leave things off, when I want to pick up later. Browser often becomes a mess with 120 tabs open.</p>
+
+<p>In order to solve this problem it will be good to have a service where it&rsquo;s easy to dump links, text, video, in order to pick those up later.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Chartist App]]></title>
