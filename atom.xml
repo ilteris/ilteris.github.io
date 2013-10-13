@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-08T21:41:24-04:00</updated>
+  <updated>2013-10-13T17:42:29-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[making vim more useful]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful/"/>
+    <updated>2013-10-13T15:12:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful</id>
+    <content type="html"><![CDATA[<p>To make vim more useful and act like bit like emacs, it&rsquo;s possible to install
+this plugin called <a href="https://github.com/teranex/tslime.vim">tslime.vim</a>. I have
+tried official slime but unfortunately that created a lot of problems with tmux.
+This is the only fork that worked on multiple windows multiple panes setup. Once
+installed (I use pathogen to install it but you can use whatever you want) you
+can use <c c> <c c> to teleport the code to the node that&rsquo;s running in another
+pane. It&rsquo;s quite useful.</p>
+
+<p>Another useful plugin is
+<a href="https://github.com/Valloric/YouCompleteMe">YouCompleteMe</a> and
+<a href="https://github.com/SirVer/ultisnips">ultisnips</a>. Unfortunately it&rsquo;s not
+seamless but it definitely gets the job done. It allows you to choose the
+dropdown snippets and allow you to choose those using <c j> and then going
+forward/back using <c j> and <c k> in the placeholder variables. There&rsquo;s an
+issue that&rsquo;s stated on the github that promises to fix the problem but
+unfortunately it doesn&rsquo;t work for vim that runs in the terminal. For it to work
+probably one needs macvim.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Installing Crouton on Samsung ChromeBook]]></title>
