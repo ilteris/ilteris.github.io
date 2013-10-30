@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-13T17:42:29-04:00</updated>
+  <updated>2013-10-29T20:00:13-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mavericks YouCompleteMe]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/29/mavericks-youcompleteme/"/>
+    <updated>2013-10-29T19:56:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/29/mavericks-youcompleteme</id>
+    <content type="html"><![CDATA[<p>If you start getting lots of errors on your YCM plugin for vim, it&rsquo;s most likely
+using 10.9. What you need to do is to compile your vim on 10.9. If you are lazy,
+go grab macvim and just copy the mvim script that&rsquo;s in the package to your
+/usr/local/bin dir. Delete the old vim binary and just create a symlink [ ln -s
+/usr/local/bin/mvim /usr/local/bin/vim] and you are good to go.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alcatraz for xcode]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode/"/>
+    <updated>2013-10-25T10:32:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode</id>
+    <content type="html"><![CDATA[<p><a href="http://mneorr.github.io/Alcatraz/">Alcatraz</a> is a nifty package manager tool for Xcode. I stumbled upon it when I
+was reading Jack Chen&rsquo;s <a href="https://github.com/chendo/FuzzyAutocompletePlugin">fuzzy matching code completion
+plugin.</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[making vim more useful]]></title>
@@ -35,6 +59,16 @@ forward/back using <c j> and <c k> in the placeholder variables. There&rsquo;s a
 issue that&rsquo;s stated on the github that promises to fix the problem but
 unfortunately it doesn&rsquo;t work for vim that runs in the terminal. For it to work
 probably one needs macvim.</p>
+
+<p><a href="https://github.com/marijnh/tern_for_vim">Tern for vim</a> is another useful
+pluging for doing javascript in vim. For me beside the killer feature is to
+allow me to jump to defition of functions. Follow the installation instructions
+and then whenever cursor is on a variable or a property TernDef takes you there.
+I have just started using it so, at this point scratching the surface. Another
+handy vim command <code>&lt;c o &gt;</code> and <code>&lt;c i&gt;</code> allows to go jumpback to old cursor
+positions if one wants to go back.</p>
+
+<p>These are all useful additions to vim workspace.</p>
 ]]></content>
   </entry>
   

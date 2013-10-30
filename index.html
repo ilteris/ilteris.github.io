@@ -9,8 +9,8 @@
   <meta name="author" content="ilteris kaplan">
 
   
-  <meta name="description" content="Making Vim More Useful To make vim more useful and act like bit like emacs, it&rsquo;s possible to install
-this plugin called tslime.vim. I have &hellip;">
+  <meta name="description" content="Mavericks YouCompleteMe If you start getting lots of errors on your YCM plugin for vim, it&rsquo;s most likely
+using 10.9. What you need to do is to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,14 @@ this plugin called tslime.vim. I have &hellip;">
 <ul>
 	
     <li>
+    	<a href="/blog/2013/10/29/mavericks-youcompleteme/">Mavericks YouCompleteMe</a>
+    </li>
+    
+    <li>
+    	<a href="/blog/2013/10/25/alcatraz-for-xcode/">Alcatraz for Xcode</a>
+    </li>
+    
+    <li>
     	<a href="/blog/2013/10/13/making-vim-more-useful/">Making Vim More Useful</a>
     </li>
     
@@ -89,14 +97,6 @@ this plugin called tslime.vim. I have &hellip;">
     
     <li>
     	<a href="/blog/2013/10/02/javascript-dependency-management/">Javascript Dependency Management</a>
-    </li>
-    
-    <li>
-    	<a href="/blog/2013/09/27/copy-paste-on-tmux-on-mac-os-x/">Copy Paste on Tmux on Mac Os X</a>
-    </li>
-    
-    <li>
-    	<a href="/blog/2013/09/27/tabs-outliner/">Tabs Outliner</a>
     </li>
     
 </ul>
@@ -167,6 +167,88 @@ this plugin called tslime.vim. I have &hellip;">
 
   </div>
   
+    <h1><a href="/blog/2013/10/29/mavericks-youcompleteme/">
+      Mavericks YouCompleteMe
+    </a></h1>
+  
+</header>
+<section>
+  <p>If you start getting lots of errors on your YCM plugin for vim, it&rsquo;s most likely
+using 10.9. What you need to do is to compile your vim on 10.9. If you are lazy,
+go grab macvim and just copy the mvim script that&rsquo;s in the package to your
+/usr/local/bin dir. Delete the old vim binary and just create a symlink [ ln -s
+/usr/local/bin/mvim /usr/local/bin/vim] and you are good to go.</p>
+
+</section>
+<footer>
+  <div class="article-date">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-29T19:56:00-04:00" pubdate data-updated="true">Oct 29<span>th</span>, 2013</time>
+  </div>
+</footer>
+
+</article>
+
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
+  
+    <h1><a href="/blog/2013/10/25/alcatraz-for-xcode/">
+      Alcatraz for Xcode
+    </a></h1>
+  
+</header>
+<section>
+  <p><a href="http://mneorr.github.io/Alcatraz/">Alcatraz</a> is a nifty package manager tool for Xcode. I stumbled upon it when I
+was reading Jack Chen&rsquo;s <a href="https://github.com/chendo/FuzzyAutocompletePlugin">fuzzy matching code completion
+plugin.</a></p>
+
+</section>
+<footer>
+  <div class="article-date">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-25T10:32:00-04:00" pubdate data-updated="true">Oct 25<span>th</span>, 2013</time>
+  </div>
+</footer>
+
+</article>
+
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
+  
     <h1><a href="/blog/2013/10/13/making-vim-more-useful/">
       Making Vim More Useful
     </a></h1>
@@ -190,6 +272,16 @@ forward/back using <c j> and <c k> in the placeholder variables. There&rsquo;s a
 issue that&rsquo;s stated on the github that promises to fix the problem but
 unfortunately it doesn&rsquo;t work for vim that runs in the terminal. For it to work
 probably one needs macvim.</p>
+
+<p><a href="https://github.com/marijnh/tern_for_vim">Tern for vim</a> is another useful
+pluging for doing javascript in vim. For me beside the killer feature is to
+allow me to jump to defition of functions. Follow the installation instructions
+and then whenever cursor is on a variable or a property TernDef takes you there.
+I have just started using it so, at this point scratching the surface. Another
+handy vim command <code>&lt;c o &gt;</code> and <code>&lt;c i&gt;</code> allows to go jumpback to old cursor
+positions if one wants to go back.</p>
+
+<p>These are all useful additions to vim workspace.</p>
 
 </section>
 <footer>
@@ -536,89 +628,6 @@ globe.</p>
 
 
 <time datetime="2013-09-15T11:15:00-04:00" pubdate data-updated="true">Sep 15<span>th</span>, 2013</time>
-  </div>
-</footer>
-
-</article>
-
-
-<article>
-	<header>
-  <div class="article-tags">
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/language/'>language</a>
-  
-</span>
-
-
-  </div>
-  
-    <h1><a href="/blog/2013/09/15/markdown/">
-      Markdown
-    </a></h1>
-  
-</header>
-<section>
-  <p>This is a simple interactive tutorial that gives the basics on markdown. (<a href="http://www.markdowntutorial.com/">http://www.markdowntutorial.com/</a>) Octopress is based on markdown by default, so it&rsquo;s useful to learn it before going forward.</p>
-
-</section>
-<footer>
-  <div class="article-date">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-15T11:00:00-04:00" pubdate data-updated="true">Sep 15<span>th</span>, 2013</time>
-  </div>
-</footer>
-
-</article>
-
-
-<article>
-	<header>
-  <div class="article-tags">
-      
-
-
-  </div>
-  
-    <h1><a href="/blog/2013/09/09/octopress-zsh-madness/">
-      Octopress Zsh Madness
-    </a></h1>
-  
-</header>
-<section>
-  <p>I cannot believe I spent 3 hours on octopress installation. I deleted the repository 5 times and try to re-install only to find out that all problems were related to zsh. Basically don&rsquo;t bother installing octopress on zsh. Just change the shell to bash and go ahead. It won&rsquo;t take more than 5 minutes.
-<a href="https://github.com/imathis/octopress/issues/117">https://github.com/imathis/octopress/issues/117</a></p>
-
-</section>
-<footer>
-  <div class="article-date">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-09T18:27:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
   </div>
 </footer>
 
