@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-29T20:00:13-04:00</updated>
+  <updated>2013-10-30T21:12:10-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Parse and Facebook integration for iOS and ideas]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas/"/>
+    <updated>2013-10-30T21:09:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas</id>
+    <content type="html"><![CDATA[<p>Log in facebook in parse allows for read permissions. This doesn&rsquo;t require to
+launch facebook app. Simple popup allows this. Instead does everything in the
+background. We can pull fb user&rsquo;s id, name etc. with this. We can then link this
+to PFuser object in our User table.  Parse allows devellopers to store and link
+uploaded photos by users on Parse. This opens up freedom to create applications
+to have linked users (by facebook) on Parse.
+One scenario:</p>
+
+<pre><code>            User A logs in with facebook on app X. App X grabs all of his fb
+            friend list and save it to Parse. Then, his friend user B logs
+            in with facebook using app X. This gives us possibility to send
+            a notification to the user A saying, your friend just joined the
+            app. 
+</code></pre>
+
+<p>Birthdays:</p>
+
+<pre><code>      Login with facebook, your friends birthday and get automatic
+      notification to your phone.
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mavericks YouCompleteMe]]></title>
