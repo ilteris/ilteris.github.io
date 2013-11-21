@@ -9,8 +9,8 @@
   <meta name="author" content="ilteris kaplan">
 
   
-  <meta name="description" content="Javascript Dependency Management Unlike many other languages javascript doesn&rsquo;t have a standard way to import
-modules. This made people to &hellip;">
+  <meta name="description" content="Unlike many other languages javascript doesn&rsquo;t have a standard way to import
+modules. This made people to come up with different solutions like &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,15 +21,16 @@ modules. This made people to &hellip;">
   
   <link rel="canonical" href="http://ilteris.github.io/blog/2013/10/02/javascript-dependency-management">
   <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dev Diary" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <script src="/javascripts/jquery.sidr.min.js"></script>
-  <script src="/javascripts/ah-blue.js"></script>
-  
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -44,62 +45,162 @@ modules. This made people to &hellip;">
   </script>
 
 
-</head> 
+</head>
 
 <body   >
-  <div class="aux-container">
-    <a id="nav-toggle" href="#sidr"></a>
-    <a id="search-toggle"></a>
+  <header role="banner"><hgroup>
+  <h1><a href="/">Dev Diary</a></h1>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ilteris.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Javascript Dependency Management</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-02T09:50:00-04:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Unlike many other languages javascript doesn&rsquo;t have a standard way to import
+modules. This made people to come up with different solutions like CommonJS, AMD
+or using plain old global namespace. It took me a while to understand what&rsquo;s
+going on with the whole dependency management eco-system and what they mean and
+how they work.</p>
+
+<p>Here are a few webpages to grasp it better:</p>
+
+<p><a href="http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead">http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead</a></p>
+
+<p><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html">http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html</a></p>
+
+<p><a href="http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html">http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html</a></p>
+
+<p><a href="http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html">http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html</a></p>
+
+<p>Generally there are two camps, RequireJS and CommonJS. CommonJS is similar to
+how npm but AMD people (RequireJS) think it&rsquo;s a javascript hack and it doesn&rsquo;t
+conform to the standards. From the other side, the critization is, RequireJS
+adds a lot of headache when project gets bigger.</p>
+
+<p>It looks like with ECMAScript 6, Javascript folks are going to try to come up
+with a cleaner and more important standard way of handling all these tasks.</p>
 </div>
 
-<header class="header-container clearfix">
-        <a href="/"><img src="/images/ah-frame.svg" onerror="this.onerror=null; this.src='ah-frame.png'"></a>
-</header>
 
-  <div class="main-container">
-    <div class="main wrapper clearfix">
-    	
-    	<aside>
-			
-			  	<div class="search-container">
-					<form action="http://google.com/search" method="get">
-						<fieldset role="search">
-							<input type="hidden" name="q" value="site:ilteris.github.io" />
-							<input class="search-field" type="text" name="q" results="0" placeholder=""/>
-							<input class="submit" type="submit" value=""/>
-						</fieldset>
-					</form>
-				</div>
-			
-		  <div id="main-nav">
-    <nav>
-        <ul>
-        	<li>
-        		
-					<h3>Recent Posts</h3>
-<ul>
-	
-    <li>
-    	<a href="/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas/">Parse and Facebook Integration for iOS and Ideas</a>
-    </li>
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">ilteris kaplan</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-02T09:50:00-04:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2013</time>
+      
+
+
+    </p>
     
-    <li>
-    	<a href="/blog/2013/10/29/mavericks-youcompleteme/">Mavericks YouCompleteMe</a>
-    </li>
+      <div class="sharing">
+  
+  
+  
+</div>
+
     
-    <li>
-    	<a href="/blog/2013/10/25/alcatraz-for-xcode/">Alcatraz for Xcode</a>
-    </li>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/09/27/copy-paste-on-tmux-on-mac-os-x/" title="Previous Post: copy paste on tmux on mac os x">&laquo; copy paste on tmux on mac os x</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/10/07/installing-crouton-on-samsung-chromebook/" title="Next Post: Installing Crouton on Samsung ChromeBook">Installing Crouton on Samsung ChromeBook &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
     
-    <li>
-    	<a href="/blog/2013/10/13/making-vim-more-useful/">Making Vim More Useful</a>
-    </li>
+      <li class="post">
+        <a href="/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas/">Parse and Facebook Integration for iOS and Ideas</a>
+      </li>
     
-    <li>
-    	<a href="/blog/2013/10/07/installing-crouton-on-samsung-chromebook/">Installing Crouton on Samsung ChromeBook</a>
-    </li>
+      <li class="post">
+        <a href="/blog/2013/10/29/mavericks-youcompleteme/">Mavericks YouCompleteMe</a>
+      </li>
     
-</ul>
+      <li class="post">
+        <a href="/blog/2013/10/25/alcatraz-for-xcode/">Alcatraz for Xcode</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/13/making-vim-more-useful/">Making Vim More Useful</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/07/installing-crouton-on-samsung-chromebook/">Installing Crouton on Samsung ChromeBook</a>
+      </li>
+    
+  </ul>
+</section>
 
 <section>
   <h1>GitHub Repos</h1>
@@ -141,92 +242,18 @@ modules. This made people to &hellip;">
 
 
 
-				
-        	</li>
-        	<li>
-        		<ul>
-                    <li>Projects - <a href="http://www.klaweht.com" target="_blank">klaweht.com</a>
-        			<li>Github - <a href="http://www.github.com/ilteris" target="_blank">github.com/ilteris</a></li>
-                    <li>Twitter - <a href="http://www.twitter.com/ilteris" target="_blank">@ilteris</a></li>
-                    <li>Email - <a href="mailto:ilteris@gmail.com" target="_blank">ilteris at gmail</a></li>
-        		</ul>
-        	</li>
-        </ul>
-    </nav>
-</div>
-		</aside>
-		
-      <div>
-<article>
-	<header>
-  <div class="article-tags">
-      
-
-
-  </div>
   
-    <h1>
-      Javascript Dependency Management
-    </h1>
-  
-</header>
-<section>
-  <p>Unlike many other languages javascript doesn&rsquo;t have a standard way to import
-modules. This made people to come up with different solutions like CommonJS, AMD
-or using plain old global namespace. It took me a while to understand what&rsquo;s
-going on with the whole dependency management eco-system and what they mean and
-how they work.</p>
+</aside>
 
-<p>Here are a few webpages to grasp it better:</p>
-
-<p><a href="http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead">http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead</a></p>
-
-<p><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html">http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html</a></p>
-
-<p><a href="http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html">http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html</a></p>
-
-<p><a href="http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html">http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html</a></p>
-
-<p>Generally there are two camps, RequireJS and CommonJS. CommonJS is similar to
-how npm but AMD people (RequireJS) think it&rsquo;s a javascript hack and it doesn&rsquo;t
-conform to the standards. From the other side, the critization is, RequireJS
-adds a lot of headache when project gets bigger.</p>
-
-<p>It looks like with ECMAScript 6, Javascript folks are going to try to come up
-with a cleaner and more important standard way of handling all these tasks.</p>
-
-</section>
-<footer>
-  <div class="article-date">
-      
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-02T09:50:00-04:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2013</time>
-  </div>
-</footer>
-
-	
-</article>
-</div>
 
     </div>
   </div>
-  <footer class="main-footer">
-	<section class="interior-footer">
-		<span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-	</section>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - ilteris kaplan -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
 </footer>
-
-
   
 
 

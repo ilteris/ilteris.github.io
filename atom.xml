@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-10-30T21:12:10-04:00</updated>
+  <updated>2013-11-20T23:08:01-05:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Parse and Facebook integration for iOS and ideas]]></title>
+    <title type="html"><![CDATA[Parse and Facebook Integration for iOS and Ideas]]></title>
     <link href="http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas/"/>
     <updated>2013-10-30T21:09:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas</id>
@@ -55,7 +55,7 @@ go grab macvim and just copy the mvim script that&rsquo;s in the package to your
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Alcatraz for xcode]]></title>
+    <title type="html"><![CDATA[Alcatraz for Xcode]]></title>
     <link href="http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode/"/>
     <updated>2013-10-25T10:32:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode</id>
@@ -66,7 +66,7 @@ plugin.</a></p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[making vim more useful]]></title>
+    <title type="html"><![CDATA[Making Vim More Useful]]></title>
     <link href="http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful/"/>
     <updated>2013-10-13T15:12:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful</id>
@@ -151,7 +151,7 @@ with a cleaner and more important standard way of handling all these tasks.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[copy paste on tmux on mac os x]]></title>
+    <title type="html"><![CDATA[Copy Paste on Tmux on Mac Os X]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/27/copy-paste-on-tmux-on-mac-os-x/"/>
     <updated>2013-09-27T19:22:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/27/copy-paste-on-tmux-on-mac-os-x</id>
@@ -164,7 +164,7 @@ relationship with tmux continues.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[tabs outliner]]></title>
+    <title type="html"><![CDATA[Tabs Outliner]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/27/tabs-outliner/"/>
     <updated>2013-09-27T16:08:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/27/tabs-outliner</id>
@@ -176,7 +176,7 @@ interface. For a peace of mind, it&rsquo;s essential.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[app annie analytics]]></title>
+    <title type="html"><![CDATA[App Annie Analytics]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/23/app-annie-analytics/"/>
     <updated>2013-09-23T17:06:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/23/app-annie-analytics</id>
@@ -190,7 +190,7 @@ globe.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[scrapbook]]></title>
+    <title type="html"><![CDATA[Scrapbook]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/15/scrapbook/"/>
     <updated>2013-09-15T13:12:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/15/scrapbook</id>
@@ -224,7 +224,7 @@ globe.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[octopress zsh madness]]></title>
+    <title type="html"><![CDATA[Octopress Zsh Madness]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/09/octopress-zsh-madness/"/>
     <updated>2013-09-09T18:27:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/09/octopress-zsh-madness</id>
