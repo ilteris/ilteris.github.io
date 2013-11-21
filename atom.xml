@@ -1,65 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-09-09T19:50:26-04:00</updated>
+  <updated>2013-10-30T21:12:10-04:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[ilteris kaplan]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    
+    <title type="html"><![CDATA[Parse and Facebook integration for iOS and ideas]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas/"/>
+    <updated>2013-10-30T21:09:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas</id>
+    <content type="html"><![CDATA[<p>Log in facebook in parse allows for read permissions. This doesn&rsquo;t require to
+launch facebook app. Simple popup allows this. Instead does everything in the
+background. We can pull fb user&rsquo;s id, name etc. with this. We can then link this
+to PFuser object in our User table.  Parse allows devellopers to store and link
+uploaded photos by users on Parse. This opens up freedom to create applications
+to have linked users (by facebook) on Parse.
+One scenario:</p>
+
+<pre><code>            User A logs in with facebook on app X. App X grabs all of his fb
+            friend list and save it to Parse. Then, his friend user B logs
+            in with facebook using app X. This gives us possibility to send
+            a notification to the user A saying, your friend just joined the
+            app. 
+</code></pre>
+
+<p>Birthdays:</p>
+
+<pre><code>      Login with facebook, your friends birthday and get automatic
+      notification to your phone.
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mavericks YouCompleteMe]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/29/mavericks-youcompleteme/"/>
+    <updated>2013-10-29T19:56:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/29/mavericks-youcompleteme</id>
+    <content type="html"><![CDATA[<p>If you start getting lots of errors on your YCM plugin for vim, it&rsquo;s most likely
+using 10.9. What you need to do is to compile your vim on 10.9. If you are lazy,
+go grab macvim and just copy the mvim script that&rsquo;s in the package to your
+/usr/local/bin dir. Delete the old vim binary and just create a symlink [ ln -s
+/usr/local/bin/mvim /usr/local/bin/vim] and you are good to go.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alcatraz for xcode]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode/"/>
+    <updated>2013-10-25T10:32:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode</id>
+    <content type="html"><![CDATA[<p><a href="http://mneorr.github.io/Alcatraz/">Alcatraz</a> is a nifty package manager tool for Xcode. I stumbled upon it when I
+was reading Jack Chen&rsquo;s <a href="https://github.com/chendo/FuzzyAutocompletePlugin">fuzzy matching code completion
+plugin.</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[making vim more useful]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful/"/>
+    <updated>2013-10-13T15:12:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful</id>
+    <content type="html"><![CDATA[<p>To make vim more useful and act like bit like emacs, it&rsquo;s possible to install
+this plugin called <a href="https://github.com/teranex/tslime.vim">tslime.vim</a>. I have
+tried official slime but unfortunately that created a lot of problems with tmux.
+This is the only fork that worked on multiple windows multiple panes setup. Once
+installed (I use pathogen to install it but you can use whatever you want) you
+can use <c c> <c c> to teleport the code to the node that&rsquo;s running in another
+pane. It&rsquo;s quite useful.</p>
+
+<p>Another useful plugin is
+<a href="https://github.com/Valloric/YouCompleteMe">YouCompleteMe</a> and
+<a href="https://github.com/SirVer/ultisnips">ultisnips</a>. Unfortunately it&rsquo;s not
+seamless but it definitely gets the job done. It allows you to choose the
+dropdown snippets and allow you to choose those using <c j> and then going
+forward/back using <c j> and <c k> in the placeholder variables. There&rsquo;s an
+issue that&rsquo;s stated on the github that promises to fix the problem but
+unfortunately it doesn&rsquo;t work for vim that runs in the terminal. For it to work
+probably one needs macvim.</p>
+
+<p><a href="https://github.com/marijnh/tern_for_vim">Tern for vim</a> is another useful
+pluging for doing javascript in vim. For me beside the killer feature is to
+allow me to jump to defition of functions. Follow the installation instructions
+and then whenever cursor is on a variable or a property TernDef takes you there.
+I have just started using it so, at this point scratching the surface. Another
+handy vim command <code>&lt;c o &gt;</code> and <code>&lt;c i&gt;</code> allows to go jumpback to old cursor
+positions if one wants to go back.</p>
+
+<p>These are all useful additions to vim workspace.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Crouton on Samsung ChromeBook]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/07/installing-crouton-on-samsung-chromebook/"/>
+    <updated>2013-10-07T13:11:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/07/installing-crouton-on-samsung-chromebook</id>
+    <content type="html"><![CDATA[<p>I am considering getting a cheap laptop and turn that into a developer machine.
+I don&rsquo;t like using MBP when I am in the bed being the main excuse. It looks like
+Crouton is the way to go for hacking the Chromebook into a debian machine. Only
+downside is Samsung ChromeBook is ARM based, which means it&rsquo;s not possible to
+run binaries that are not compiled for ARMs.</p>
+
+<p><a href="http://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/">http://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/</a></p>
+
+<p><a href="https://news.ycombinator.com/item?id=6499625">https://news.ycombinator.com/item?id=6499625</a></p>
+
+<p><a href="http://pclosmag.com/html/Issues/201109/page08.html">http://pclosmag.com/html/Issues/201109/page08.html</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Dependency Management]]></title>
+    <link href="http://ilteris.github.io/blog/2013/10/02/javascript-dependency-management/"/>
+    <updated>2013-10-02T09:50:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/10/02/javascript-dependency-management</id>
+    <content type="html"><![CDATA[<p>Unlike many other languages javascript doesn&rsquo;t have a standard way to import
+modules. This made people to come up with different solutions like CommonJS, AMD
+or using plain old global namespace. It took me a while to understand what&rsquo;s
+going on with the whole dependency management eco-system and what they mean and
+how they work.</p>
+
+<p>Here are a few webpages to grasp it better:</p>
+
+<p><a href="http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead">http://yahooeng.tumblr.com/post/62383009835/javascript-modules-amd-and-the-road-ahead</a></p>
+
+<p><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html">http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html</a></p>
+
+<p><a href="http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html">http://blog.testdouble.com/posts/2013-06-16-unrequired-love.html</a></p>
+
+<p><a href="http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html">http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html</a></p>
+
+<p>Generally there are two camps, RequireJS and CommonJS. CommonJS is similar to
+how npm but AMD people (RequireJS) think it&rsquo;s a javascript hack and it doesn&rsquo;t
+conform to the standards. From the other side, the critization is, RequireJS
+adds a lot of headache when project gets bigger.</p>
+
+<p>It looks like with ECMAScript 6, Javascript folks are going to try to come up
+with a cleaner and more important standard way of handling all these tasks.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[copy paste on tmux on mac os x]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/27/copy-paste-on-tmux-on-mac-os-x/"/>
+    <updated>2013-09-27T19:22:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/27/copy-paste-on-tmux-on-mac-os-x</id>
+    <content type="html"><![CDATA[<p>If you ever find yourself working with two different instances of vim under mac
+os x using tmux, copy/paste will not work like you expect it to work. Go to
+<a href="https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard">https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard</a> and read more about it.
+Once you follow the instructions, then it works flawlessly. My love/hate
+relationship with tmux continues.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[tabs outliner]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/27/tabs-outliner/"/>
+    <updated>2013-09-27T16:08:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/27/tabs-outliner</id>
+    <content type="html"><![CDATA[<p>I have found a great Chrome extension, tab outliner
+<a href="https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en,">https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl?hl=en,</a>
+it allows one to keep tabs to minimum by allowing to save them in an tree
+interface. For a peace of mind, it&rsquo;s essential.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[app annie analytics]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/23/app-annie-analytics/"/>
+    <updated>2013-09-23T17:06:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/23/app-annie-analytics</id>
+    <content type="html"><![CDATA[<p>This is a handy website that allows one to check out different app stores top
+games list. It definitely gives an insight about what people buy across the
+globe.</p>
+
+<p>Here&rsquo;s one for Turkey:
+<a href="http://www.appannie.com/top/iphone/turkey/">http://www.appannie.com/top/iphone/turkey/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[scrapbook]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/scrapbook/"/>
+    <updated>2013-09-15T13:12:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/scrapbook</id>
+    <content type="html"><![CDATA[<p>Another app idea of mine is codename scrapbook. Often times, I find myself browsing through all kinds of webpages, PDFs, videos when I am trying to learn a new language, framework or technology. Things get out of hand pretty quickly. It becomes hard to follow and remember where I leave things off, when I want to pick up later. Browser often becomes a mess with 120 tabs open.</p>
+
+<p>In order to solve this problem it will be good to have a service where it&rsquo;s easy to dump links, text, video, in order to pick those up later.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chartist App]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/chartist/"/>
+    <updated>2013-09-15T11:15:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/chartist</id>
+    <content type="html"><![CDATA[<p>This is a project I have been thinking about for a while. I envisioned it as a service for my own needs when I want to be able save charts along with typical information like entry, exit points to look at them later.</p>
+
+<p>For a very simple start, I need a few things to make this work:
+1. Figure out a way to route the screen shot of the chart from desktop using mac os x screenshot application to the chartist application.
+2. Get a few inputs from the user including the derivative symbol, entry price, exit price.
+3. Try to grab the feed from the yahoo finance API.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/markdown/"/>
+    <updated>2013-09-15T11:00:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/markdown</id>
+    <content type="html"><![CDATA[<p>This is a simple interactive tutorial that gives the basics on markdown. (<a href="http://www.markdowntutorial.com/">http://www.markdowntutorial.com/</a>) Octopress is based on markdown by default, so it&rsquo;s useful to learn it before going forward.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[octopress zsh madness]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/09/octopress-zsh-madness/"/>
+    <updated>2013-09-09T18:27:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/09/octopress-zsh-madness</id>
+    <content type="html"><![CDATA[<p>I cannot believe I spent 3 hours on octopress installation. I deleted the repository 5 times and try to re-install only to find out that all problems were related to zsh. Basically don&rsquo;t bother installing octopress on zsh. Just change the shell to bash and go ahead. It won&rsquo;t take more than 5 minutes.
+<a href="https://github.com/imathis/octopress/issues/117">https://github.com/imathis/octopress/issues/117</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Hello World]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/09/hello-world/"/>
-    
     <updated>2013-09-09T18:13:00-04:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/09/hello-world</id>
-    
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This is the hello world post. Testing editing too.</p>
 ]]></content>
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Octopress Zsh Madness]]></title>
-    <link href="http://ilteris.github.io/blog/2013/09/09/octopress-zsh-madness/"/>
-    
-    <updated>2013-09-09T00:00:00-04:00</updated>
-    <id>http://ilteris.github.io/blog/2013/09/09/octopress-zsh-madness</id>
-    
-    <content type="html"><![CDATA[<p>I cannot believe I spent 3 hours on octopress installation. I deleted the
-repository 5 times and try to re-install only to find out that all problems were</p>
-
-<h2>related to zsh. oh my zsh&hellip; no pun intended.</h2>
-
-<p>layout: post
-title: &ldquo;octopress zsh madness&rdquo;
-date: 2013-09-09 18:27
-comments: true</p>
-
-<h2>categories: </h2>
-]]></content>
-    
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[This is post]]></title>
-    <link href="http://ilteris.github.io/blog/2011/06/01/this-is-a-test/"/>
-    
-    <updated>2011-06-01T14:44:00-04:00</updated>
-    <id>http://ilteris.github.io/blog/2011/06/01/this-is-a-test</id>
-    
-    <content type="html"><![CDATA[<p>Booyah!</p>
-]]></content>
-    
   </entry>
   
 </feed>

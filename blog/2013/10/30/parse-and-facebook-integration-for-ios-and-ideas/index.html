@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello World - Dev Diary</title>
+  <title>Parse and Facebook integration for iOS and ideas - Dev Diary</title>
   <meta name="author" content="ilteris kaplan">
 
   
-  <meta name="description" content=" untitled Hello World This is the hello world post. Testing editing too. Sep 9th, 2013 ">
+  <meta name="description" content="Parse and Facebook Integration for iOS and Ideas Log in facebook in parse allows for read permissions. This doesn&rsquo;t require to
+launch facebook &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ilteris.github.io/blog/2013/09/09/hello-world">
+  <link rel="canonical" href="http://ilteris.github.io/blog/2013/10/30/parse-and-facebook-integration-for-ios-and-ideas">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dev Diary" type="application/atom+xml">
@@ -161,22 +162,35 @@
   <div class="article-tags">
       
 
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/untitled/'>untitled</a>
-  
-</span>
-
 
   </div>
   
     <h1>
-      Hello World
+      Parse and Facebook Integration for iOS and Ideas
     </h1>
   
 </header>
 <section>
-  <p>This is the hello world post. Testing editing too.</p>
+  <p>Log in facebook in parse allows for read permissions. This doesn&rsquo;t require to
+launch facebook app. Simple popup allows this. Instead does everything in the
+background. We can pull fb user&rsquo;s id, name etc. with this. We can then link this
+to PFuser object in our User table.  Parse allows devellopers to store and link
+uploaded photos by users on Parse. This opens up freedom to create applications
+to have linked users (by facebook) on Parse.
+One scenario:</p>
+
+<pre><code>            User A logs in with facebook on app X. App X grabs all of his fb
+            friend list and save it to Parse. Then, his friend user B logs
+            in with facebook using app X. This gives us possibility to send
+            a notification to the user A saying, your friend just joined the
+            app. 
+</code></pre>
+
+<p>Birthdays:</p>
+
+<pre><code>      Login with facebook, your friends birthday and get automatic
+      notification to your phone.
+</code></pre>
 
 </section>
 <footer>
@@ -193,7 +207,7 @@
   
 
 
-<time datetime="2013-09-09T18:13:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+<time datetime="2013-10-30T21:09:00-04:00" pubdate data-updated="true">Oct 30<span>th</span>, 2013</time>
   </div>
 </footer>
 

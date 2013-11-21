@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: chartist | Dev Diary]]></title>
+  <link href="http://ilteris.github.io/blog/categories/chartist/atom.xml" rel="self"/>
+  <link href="http://ilteris.github.io/"/>
+  <updated>2013-10-30T21:12:10-04:00</updated>
+  <id>http://ilteris.github.io/</id>
+  <author>
+    <name><![CDATA[ilteris kaplan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Chartist App]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/chartist/"/>
+    <updated>2013-09-15T11:15:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/chartist</id>
+    <content type="html"><![CDATA[<p>This is a project I have been thinking about for a while. I envisioned it as a service for my own needs when I want to be able save charts along with typical information like entry, exit points to look at them later.</p>
+
+<p>For a very simple start, I need a few things to make this work:
+1. Figure out a way to route the screen shot of the chart from desktop using mac os x screenshot application to the chartist application.
+2. Get a few inputs from the user including the derivative symbol, entry price, exit price.
+3. Try to grab the feed from the yahoo finance API.</p>
+]]></content>
+  </entry>
+  
+</feed>

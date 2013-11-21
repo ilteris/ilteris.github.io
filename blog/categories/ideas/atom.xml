@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ideas | Dev Diary]]></title>
+  <link href="http://ilteris.github.io/blog/categories/ideas/atom.xml" rel="self"/>
+  <link href="http://ilteris.github.io/"/>
+  <updated>2013-10-30T21:12:10-04:00</updated>
+  <id>http://ilteris.github.io/</id>
+  <author>
+    <name><![CDATA[ilteris kaplan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[scrapbook]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/scrapbook/"/>
+    <updated>2013-09-15T13:12:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/scrapbook</id>
+    <content type="html"><![CDATA[<p>Another app idea of mine is codename scrapbook. Often times, I find myself browsing through all kinds of webpages, PDFs, videos when I am trying to learn a new language, framework or technology. Things get out of hand pretty quickly. It becomes hard to follow and remember where I leave things off, when I want to pick up later. Browser often becomes a mess with 120 tabs open.</p>
+
+<p>In order to solve this problem it will be good to have a service where it&rsquo;s easy to dump links, text, video, in order to pick those up later.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chartist App]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/chartist/"/>
+    <updated>2013-09-15T11:15:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/chartist</id>
+    <content type="html"><![CDATA[<p>This is a project I have been thinking about for a while. I envisioned it as a service for my own needs when I want to be able save charts along with typical information like entry, exit points to look at them later.</p>
+
+<p>For a very simple start, I need a few things to make this work:
+1. Figure out a way to route the screen shot of the chart from desktop using mac os x screenshot application to the chartist application.
+2. Get a few inputs from the user including the derivative symbol, entry price, exit price.
+3. Try to grab the feed from the yahoo finance API.</p>
+]]></content>
+  </entry>
+  
+</feed>

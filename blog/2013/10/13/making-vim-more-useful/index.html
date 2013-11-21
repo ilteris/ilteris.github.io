@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello World - Dev Diary</title>
+  <title>making vim more useful - Dev Diary</title>
   <meta name="author" content="ilteris kaplan">
 
   
-  <meta name="description" content=" untitled Hello World This is the hello world post. Testing editing too. Sep 9th, 2013 ">
+  <meta name="description" content="Making Vim More Useful To make vim more useful and act like bit like emacs, it&rsquo;s possible to install
+this plugin called tslime.vim. I have &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ilteris.github.io/blog/2013/09/09/hello-world">
+  <link rel="canonical" href="http://ilteris.github.io/blog/2013/10/13/making-vim-more-useful">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dev Diary" type="application/atom+xml">
@@ -161,22 +162,42 @@
   <div class="article-tags">
       
 
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/untitled/'>untitled</a>
-  
-</span>
-
 
   </div>
   
     <h1>
-      Hello World
+      Making Vim More Useful
     </h1>
   
 </header>
 <section>
-  <p>This is the hello world post. Testing editing too.</p>
+  <p>To make vim more useful and act like bit like emacs, it&rsquo;s possible to install
+this plugin called <a href="https://github.com/teranex/tslime.vim">tslime.vim</a>. I have
+tried official slime but unfortunately that created a lot of problems with tmux.
+This is the only fork that worked on multiple windows multiple panes setup. Once
+installed (I use pathogen to install it but you can use whatever you want) you
+can use <c c> <c c> to teleport the code to the node that&rsquo;s running in another
+pane. It&rsquo;s quite useful.</p>
+
+<p>Another useful plugin is
+<a href="https://github.com/Valloric/YouCompleteMe">YouCompleteMe</a> and
+<a href="https://github.com/SirVer/ultisnips">ultisnips</a>. Unfortunately it&rsquo;s not
+seamless but it definitely gets the job done. It allows you to choose the
+dropdown snippets and allow you to choose those using <c j> and then going
+forward/back using <c j> and <c k> in the placeholder variables. There&rsquo;s an
+issue that&rsquo;s stated on the github that promises to fix the problem but
+unfortunately it doesn&rsquo;t work for vim that runs in the terminal. For it to work
+probably one needs macvim.</p>
+
+<p><a href="https://github.com/marijnh/tern_for_vim">Tern for vim</a> is another useful
+pluging for doing javascript in vim. For me beside the killer feature is to
+allow me to jump to defition of functions. Follow the installation instructions
+and then whenever cursor is on a variable or a property TernDef takes you there.
+I have just started using it so, at this point scratching the surface. Another
+handy vim command <code>&lt;c o &gt;</code> and <code>&lt;c i&gt;</code> allows to go jumpback to old cursor
+positions if one wants to go back.</p>
+
+<p>These are all useful additions to vim workspace.</p>
 
 </section>
 <footer>
@@ -193,7 +214,7 @@
   
 
 
-<time datetime="2013-09-09T18:13:00-04:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+<time datetime="2013-10-13T15:12:00-04:00" pubdate data-updated="true">Oct 13<span>th</span>, 2013</time>
   </div>
 </footer>
 

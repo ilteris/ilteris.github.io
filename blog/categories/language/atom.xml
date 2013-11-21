@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: language | Dev Diary]]></title>
+  <link href="http://ilteris.github.io/blog/categories/language/atom.xml" rel="self"/>
+  <link href="http://ilteris.github.io/"/>
+  <updated>2013-10-30T21:12:10-04:00</updated>
+  <id>http://ilteris.github.io/</id>
+  <author>
+    <name><![CDATA[ilteris kaplan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown]]></title>
+    <link href="http://ilteris.github.io/blog/2013/09/15/markdown/"/>
+    <updated>2013-09-15T11:00:00-04:00</updated>
+    <id>http://ilteris.github.io/blog/2013/09/15/markdown</id>
+    <content type="html"><![CDATA[<p>This is a simple interactive tutorial that gives the basics on markdown. (<a href="http://www.markdowntutorial.com/">http://www.markdowntutorial.com/</a>) Octopress is based on markdown by default, so it&rsquo;s useful to learn it before going forward.</p>
+]]></content>
+  </entry>
+  
+</feed>
