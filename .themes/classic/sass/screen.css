@@ -1,6 +1,6 @@
 /*
 Syntax error: File to import not found or unreadable: compass.
-              Load path: /Users/ilteris/ilteris.github.io/sass
+              Load path: /Users/ilteris/ilteris.github.io/.themes/classic/sass
         on line 1 of screen.scss
 
 1: @import "compass";
@@ -49,4 +49,4 @@ screen.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: /Users/ilteris/ilteris.github.io/sass\A         on line 1 of screen.scss\A \A 1: @import \"compass\";\A 2: @include global-reset;\A 3: \A 4: @import \"custom/colors\";\A 5: @import \"custom/fonts\";\A 6: @import \"custom/layout\";"; }
+  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: /Users/ilteris/ilteris.github.io/.themes/classic/sass\A         on line 1 of screen.scss\A \A 1: @import \"compass\";\A 2: @include global-reset;\A 3: \A 4: @import \"custom/colors\";\A 5: @import \"custom/fonts\";\A 6: @import \"custom/layout\";"; }

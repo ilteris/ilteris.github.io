@@ -1,21 +1,5 @@
-<div id="main-nav">
-    <nav>
-        <ul>
-        	<li>
-        		{% if site.blog_index_asides.size %}
-					{% include_array blog_index_asides %}
-				{% else %}
-					{% include_array default_asides %}
-				{% endif %}
-        	</li>
-        	<li>
-        		<ul>
-                    <li>Projects - <a href="http://www.klaweht.com" target="_blank">klaweht.com</a>
-        			<li>Github - <a href="http://www.github.com/ilteris" target="_blank">github.com/ilteris</a></li>
-                    <li>Twitter - <a href="http://www.twitter.com/ilteris" target="_blank">@ilteris</a></li>
-                    <li>Email - <a href="mailto:ilteris@gmail.com" target="_blank">ilteris at gmail</a></li>
-        		</ul>
-        	</li>
-        </ul>
-    </nav>
-</div>
+<ul class="main-navigation">
+  <li><a href="{{ root_url }}/">Blog</a></li>
+  <li><a href="{{ root_url }}/">Blog</a></li>
+  <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+</ul>
