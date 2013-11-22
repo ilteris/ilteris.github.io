@@ -83,9 +83,7 @@ body {
     }
   }
   > header {
-    font-size: $header-font-size;
-    padding-top: $header-padding-top;
-    padding-bottom: $header-padding-bottom;
+
   }
 }
 
@@ -98,7 +96,6 @@ aside.sidebar {
   float: none;
   padding: 0 $pad-min 1px;
   background-color: lighten($sidebar-bg, 2);
-  border-top: 1px solid $sidebar-border;
   @extend .group;
 }
 
