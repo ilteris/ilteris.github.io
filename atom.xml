@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-11-23T01:27:09-05:00</updated>
+  <updated>2013-11-23T11:09:09-05:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dash for Offline API Reading]]></title>
+    <link href="http://ilteris.github.io/blog/2013/11/23/dash-for-offline-api-reading/"/>
+    <updated>2013-11-23T10:54:15-05:00</updated>
+    <id>http://ilteris.github.io/blog/2013/11/23/dash-for-offline-api-reading</id>
+    <content type="html"><![CDATA[<p><a href="http://kapeli.com/dash">Dash</a> is a great tool for reading documentation offline
+of your favorite framework or library. You can also generate <a href="http://kapeli.com/docsets">your own docsets</a> and host them as feeds so anyone can use it.
+I have found an open source iOS project on github (<a href="https://github.com/omz/DocSets-for-iOS">https://github.com/omz/DocSets-for-iOS</a>) for reading the mac os x / iOS docsets
+which is a bit dated but have not been able to find any project that&rsquo;s
+compatible with Dash docsets in general. Maybe a side project?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Parse and Facebook Integration for iOS and Ideas]]></title>
