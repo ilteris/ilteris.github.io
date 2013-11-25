@@ -5,14 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Alcatraz for Xcode - Dev Diary</title>
+  <title>Block Objects in iOS - Dev Diary</title>
   <meta name="author" content="ilteris kaplan">
 
   
-  <meta name="description" content="Alcatraz is a nifty package manager tool for Xcode. I stumbled upon it when I
-was reading Jack Chen&rsquo;s fuzzy matching code completion
-plugin.
-">
+  <meta name="description" content="“Block objects can either be inline or coded as independent blocks of code.
+Let’s start with the latter type. Suppose you have a method in Objective- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +19,7 @@ plugin.
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ilteris.github.io/blog/2013/10/25/alcatraz-for-xcode">
+  <link rel="canonical" href="http://ilteris.github.io/blog/2013/11/25/block-objects-in-ios">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dev Diary" type="application/atom+xml">
@@ -81,7 +79,7 @@ plugin.
   
   <header>
     
-      <h1 class="entry-title">Alcatraz for Xcode</h1>
+      <h1 class="entry-title">Block Objects in iOS</h1>
     
     
       <p class="meta">
@@ -97,16 +95,24 @@ plugin.
   
 
 
-<time datetime="2013-10-25T10:32:00-05:00" pubdate data-updated="true">Oct 25<span>th</span>, 2013</time>
+<time datetime="2013-11-25T09:22:24-06:00" pubdate data-updated="true">Nov 25<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><a href="http://mneorr.github.io/Alcatraz/">Alcatraz</a> is a nifty package manager tool for Xcode. I stumbled upon it when I
-was reading Jack Chen&rsquo;s <a href="https://github.com/chendo/FuzzyAutocompletePlugin">fuzzy matching code completion
-plugin.</a></p>
+<div class="entry-content"><p>“Block objects can either be inline or coded as independent blocks of code.
+Let’s start with the latter type. Suppose you have a method in Objective-C that
+accepts two integer values of type NSInteger and returns the difference of the
+two values, by subtracting one from the other, as an NSInteger:”</p>
+
+<p>Excerpt From: Nahavandipoor, Vandad. “iOS 7 Programming Cookbook.” iBooks.</p>
+
+<pre><code>- (NSInteger) subtract:(NSInteger)paramValue from:(NSInteger)paramFrom { 
+return paramFrom - paramValue;
+}
+</code></pre>
 </div>
 
 
@@ -129,7 +135,7 @@ plugin.</a></p>
   
 
 
-<time datetime="2013-10-25T10:32:00-05:00" pubdate data-updated="true">Oct 25<span>th</span>, 2013</time>
+<time datetime="2013-11-25T09:22:24-06:00" pubdate data-updated="true">Nov 25<span>th</span>, 2013</time>
       
 
 
@@ -144,10 +150,8 @@ plugin.</a></p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/10/13/making-vim-more-useful/" title="Previous Post: making vim more useful">&laquo; making vim more useful</a>
+        <a class="basic-alignment left" href="/blog/2013/11/23/dash-for-offline-api-reading/" title="Previous Post: Dash for offline API reading">&laquo; Dash for offline API reading</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/10/29/mavericks-youcompleteme/" title="Next Post: Mavericks YouCompleteMe">Mavericks YouCompleteMe &raquo;</a>
       
     </p>
   </footer>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Language | Dev Diary]]></title>
   <link href="http://ilteris.github.io/blog/categories/language/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-11-23T11:09:09-05:00</updated>
+  <updated>2013-11-25T09:24:59-06:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Markdown]]></title>
     <link href="http://ilteris.github.io/blog/2013/09/15/markdown/"/>
-    <updated>2013-09-15T11:00:00-04:00</updated>
+    <updated>2013-09-15T11:00:00-05:00</updated>
     <id>http://ilteris.github.io/blog/2013/09/15/markdown</id>
     <content type="html"><![CDATA[<p>This is a simple interactive tutorial that gives the basics on markdown. (<a href="http://www.markdowntutorial.com/">http://www.markdowntutorial.com/</a>) Octopress is based on markdown by default, so it&rsquo;s useful to learn it before going forward.</p>
 ]]></content>
