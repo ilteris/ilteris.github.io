@@ -22,7 +22,7 @@ learning the syntax of block objects:
 
     NSInteger subtract(NSInteger paramValue, NSInteger paramFrom){
         return paramFrom - paramValue;
-}
+        }
 
 You can see that the C function is quite different in syntax from its
 Objective-C counterpart. Now let’s have a look at how we could code the same
@@ -31,9 +31,7 @@ function as a block object:
     NSInteger (^subtract)(NSInteger, NSInteger) = ^(NSInteger paramValue,
         NSInteger paramFrom) {        
                 return paramFrom - paramValue;
-                    
-
-};
+                    };
 
 Suppose we have a function in C that takes a parameter of type NSUInteger (an
 unsigned integer) and returns it as a string of type NSString. Here is how we implement this in C:
@@ -41,9 +39,7 @@ unsigned integer) and returns it as a string of type NSString. Here is how we im
     
         return [NSString stringWithFormat:@"%lu",
                     (unsigned long)paramInteger];
-                        
-
-}
+                        }
 
 The block object equivalent of this C function is:
     NSString* (^intToString)(NSUInteger) = ^(NSUInteger paramInteger){
@@ -52,7 +48,37 @@ The block object equivalent of this C function is:
                                 (unsigned long)paramInteger];
                                     
                                         return result;
+    };
+
+The simplest form of an independent block object would be a block object that
+returns void and does  not take in any parameters:
+    void (^simpleBlock)(void) = ^{
+    /* Implement the block object here */
+
+    };
+
+
+Block objects can be invoked in the exact same way as C functions. If they have
+any parameters, you pass those as you would for a C function, and any return
+value can be retrieved exactly as you would retrieve a C function’s return
+value. Here is an example:”
+
+    NSString* (^intToString)(NSUInteger) = ^(NSUInteger paramInteger){
+    
+        NSString *result = [NSString stringWithFormat:@"%lu",
+                                (unsigned long)paramInteger];
+                                    
+                                        return result;
                                             
 
-};
+    };
+
+    - (void) callIntToString{
+    
+        NSString *string = intToString(10);
+            NSLog(@"string = %@", string);
+                
+
+   }
+
 
