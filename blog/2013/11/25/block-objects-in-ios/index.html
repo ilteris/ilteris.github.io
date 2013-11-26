@@ -107,12 +107,81 @@ Let’s start with the latter type. Suppose you have a method in Objective-C tha
 accepts two integer values of type NSInteger and returns the difference of the
 two values, by subtracting one from the other, as an NSInteger:”</p>
 
-<p>Excerpt From: Nahavandipoor, Vandad. “iOS 7 Programming Cookbook.” iBooks.</p>
-
 <pre><code>- (NSInteger) subtract:(NSInteger)paramValue from:(NSInteger)paramFrom { 
 return paramFrom - paramValue;
 }
 </code></pre>
+
+<p>pure C function that provides the same functionality to get one step closer to
+learning the syntax of block objects:</p>
+
+<pre><code>NSInteger subtract(NSInteger paramValue, NSInteger paramFrom){
+    return paramFrom - paramValue;
+    }
+</code></pre>
+
+<p>You can see that the C function is quite different in syntax from its
+Objective-C counterpart. Now let’s have a look at how we could code the same
+function as a block object:</p>
+
+<pre><code>NSInteger (^subtract)(NSInteger, NSInteger) = ^(NSInteger paramValue,
+    NSInteger paramFrom) {        
+            return paramFrom - paramValue;
+                };
+</code></pre>
+
+<p>Suppose we have a function in C that takes a parameter of type NSUInteger (an
+unsigned integer) and returns it as a string of type NSString. Here is how we implement this in C:</p>
+
+<pre><code>NSString* intToString (NSUInteger paramInteger){
+
+    return [NSString stringWithFormat:@"%lu",
+                (unsigned long)paramInteger];
+                    }
+</code></pre>
+
+<p>The block object equivalent of this C function is:</p>
+
+<pre><code>NSString* (^intToString)(NSUInteger) = ^(NSUInteger paramInteger){
+
+    NSString *result = [NSString stringWithFormat:@"%lu",
+                            (unsigned long)paramInteger];
+
+                                    return result;
+};
+</code></pre>
+
+<p>The simplest form of an independent block object would be a block object that
+returns void and does  not take in any parameters:</p>
+
+<pre><code>void (^simpleBlock)(void) = ^{
+/* Implement the block object here */
+
+};
+</code></pre>
+
+<p>Block objects can be invoked in the exact same way as C functions. If they have
+any parameters, you pass those as you would for a C function, and any return
+value can be retrieved exactly as you would retrieve a C function’s return
+value. Here is an example:”</p>
+
+<pre><code>NSString* (^intToString)(NSUInteger) = ^(NSUInteger paramInteger){
+
+    NSString *result = [NSString stringWithFormat:@"%lu",
+                            (unsigned long)paramInteger];
+
+                                    return result;
+
+
+};
+
+- (void) callIntToString{
+
+    NSString *string = intToString(10);
+        NSLog(@"string = %@", string);
+</code></pre>
+
+<p>   }</p>
 </div>
 
 
