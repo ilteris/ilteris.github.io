@@ -81,4 +81,11 @@ value. Here is an example:”
 
    }
 
+“The callIntToString Objective-C method is calling the intToString block object
+by passing the value 10 as the only parameter to this block object and placing
+the return value of this block object in the string local variable.
 
+Excerpt From: Nahavandipoor, Vandad. “iOS 7 Programming Cookbook.” iBooks. 
+
+
+Excerpt From: Nahavandipoor, Vandad. “iOS 7 Programming Cookbook.” iBooks. 
