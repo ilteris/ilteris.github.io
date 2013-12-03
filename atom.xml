@@ -4,7 +4,7 @@
   <title><![CDATA[Dev Diary]]></title>
   <link href="http://ilteris.github.io/atom.xml" rel="self"/>
   <link href="http://ilteris.github.io/"/>
-  <updated>2013-11-30T20:14:03-05:00</updated>
+  <updated>2013-12-02T23:16:06-05:00</updated>
   <id>http://ilteris.github.io/</id>
   <author>
     <name><![CDATA[ilteris kaplan]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install Tmux 1.8 on 12.04]]></title>
+    <link href="http://ilteris.github.io/blog/2013/12/02/install-tmux-1-dot-8-on-12-dot-04/"/>
+    <updated>2013-12-02T23:15:06-05:00</updated>
+    <id>http://ilteris.github.io/blog/2013/12/02/install-tmux-1-dot-8-on-12-dot-04</id>
+    <content type="html"><![CDATA[<p>sudo add-apt-repository ppa:pi-rho/dev (source)</p>
+
+<p>sudo apt-get update (freshens the cache/database of packages)</p>
+
+<p>sudo apt-cache show tmux (*optional, shows you available versions, 1.7 &amp; 1.8
+should be listed)</p>
+
+<p>sudo apt-get install tmux</p>
+
+<p>tmux -V</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Block Objects in iOS]]></title>
